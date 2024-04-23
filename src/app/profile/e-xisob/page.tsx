@@ -1,11 +1,13 @@
-import React from 'react'
+import React from "react";
+import { Card } from "../_components/card";
 
 const EXisob = () => {
   return (
     <div>
-     E-Xisob 
+      E-Xisob
+      <Card />
     </div>
-  )
-}
+  );
+};
 
-export default EXisob
+export default EXisob;

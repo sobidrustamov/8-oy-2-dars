@@ -73,7 +73,7 @@ const ProfileLayout: React.FC<{ children: React.ReactNode }> = ({
             Sozlamalar
           </Link>
         </div>
-        <div> {children}</div>
+        <div className="p-6"><h2 className="text-4xl"> {children}</h2></div>
       </div>
     </div>
   );
